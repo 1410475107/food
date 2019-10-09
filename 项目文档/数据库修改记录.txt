@@ -1,0 +1,4 @@
+ALTER TABLE `article`
+	ALTER `title` DROP DEFAULT;
+ALTER TABLE `article`
+	CHANGE COLUMN `title` `title` VARCHAR(300) NOT NULL COMMENT 'ндуб╠ЙлБ' AFTER `aid`;
